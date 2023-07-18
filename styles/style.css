@@ -160,7 +160,23 @@
     margin-left: 24px;
     margin-top: 20px;
 }
+.video-section{
 
+}
+.video-content{
+text-align: center;
+}
+.video-title{
+
+}
+.video-details{
+
+}
+.video-img{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
 
 
 
