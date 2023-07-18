@@ -125,7 +125,6 @@
     color: #0B0223;
     text-align: center;
     font-size: 3rem;
-    font-style: normal;
     font-weight: 600;
     margin-left: -40px;
 
@@ -160,22 +159,97 @@
     margin-left: 24px;
     margin-top: 20px;
 }
-.video-section{
 
-}
-.video-content{
-text-align: center;
-}
-.video-title{
+.video-section {}
 
+.video-content {
+    text-align: center;
+    margin-top: 120px;
 }
-.video-details{
 
+.video-title {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
 }
-.video-img{
-    display: flex;
-    justify-content: center;
+
+.half {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.video-details {
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 16px 0 48px 0;
+}
+
+.video-img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* justify-content: center; */
+    margin: 0 240px;
     gap: 24px;
+}
+
+.card-details {
+    color: #534C64;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+/********** Game Service **********/
+
+.game-service {
+    display: flex;
+    margin: 0 240px;
+    align-items: center;
+    margin-top: 120px;
+    ;
+}
+.service-main-img{
+
+}
+.service-sub-img {
+    position: relative;
+    top: 250px;
+    right: 180px;
+    border-radius: 10px;
+}
+
+.service-content {
+    width: 483px;
+}
+
+.game-service-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 24px;
+}
+
+.game-service-title-half {
+    background: linear-gradient(180deg, #000000 0%, #070707 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.game-service-details {
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 400;
 }
 
 
@@ -185,7 +259,7 @@ text-align: center;
     .navbar-section {
         flex-direction: column;
         padding: 0;
-        
+
     }
 
     .logo {
@@ -204,20 +278,127 @@ text-align: center;
     .nav-btn {
         margin-top: 45px;
     }
-    .banner-section{
+
+    .banner-section {
         flex-direction: column-reverse;
     }
-    .banner-img{
+
+    .banner-img {
         width: 100%;
     }
-    .banner-content{
+
+    .banner-content {
         left: 50px;
-        
+
     }
-    .banner{
+
+    .banner-details {
+        font-size: 1.1rem;
+    }
+
+    .banner {
         width: 100%;
     }
-    .banner-section{
+
+    .banner-section {
         margin-top: 100px;
+    }
+
+    .video-img {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+        margin-left: 40px;
+    }
+
+    .sec-btn-primary {
+        margin-left: 0;
+    }
+    .game-service{
+        margin: 0;
+        flex-direction: column-reverse;
+    }
+
+    .service-main-img{
+        width: 80%;
+       margin: 80px 0 0 30px;
+    }
+
+    .service-sub-img {
+      top: 500px;
+      left: 150px;
+        border-radius: 10px;
+    }
+    .sub-img{
+        width:55% ;
+    }
+    .service-content{
+        width: 90%;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .navbar-section {
+        flex-direction: column;
+        padding: 0;
+
+    }
+
+    .logo {
+        margin-top: 100px;
+        margin-bottom: 45px;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin: 15px 0;
+    }
+
+    .nav-btn {
+        margin-top: 45px;
+    }
+
+    .banner-section {
+        flex-direction: column-reverse;
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+    .banner-content {
+        margin: 30px 0;
+
+    }
+
+    .banner-details {
+        font-size: 1.1rem;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .banner-section {
+        margin-top: 100px;
+    }
+
+    .video-img {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0;
+        margin-left: 40px;
+    }
+
+    .sec-btn-primary {
+        margin-left: 0;
     }
 }
