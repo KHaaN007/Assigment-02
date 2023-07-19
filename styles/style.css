@@ -194,19 +194,19 @@
     gap: 24px;
 }
 
-/* .watch-now:hover {
-    filter: grayscale(80%);
+.watch-now:hover {
+    filter: grayscale(70%);
+    
+}
 
-} */
-
-/* .watch-img {
+.watch-img {
+    text-align: center;
     color: #FF42A5;
-    position: relative;
-    bottom: 250px;
-    left: 150px;
-    display: hidden;
+    position:absolute;
+    bottom: -380px;
+    right: 700px;
+}
 
-} */
 
 .watch-title {
     font-size: 1.2rem;
@@ -492,7 +492,7 @@
         width: 133px;
         border-radius: 50px;
         padding: 0;
-        margin: 0;
+        margin: 10px;
 
 
     }
