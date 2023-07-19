@@ -295,6 +295,88 @@
     margin-left: 10px;
 }
 
+/* Footer section */
+.footer-section {
+    background: #0B0223;
+    text-align: center;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 0 70px 0;
+}
+
+.footer-logo-img {}
+
+.footer-logo-title {
+    color: #FFF;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-left: 20px;
+
+}
+
+.footer-logo-title-g {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B0223;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.footer-menu {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 0 530px 70px 530px;
+}
+
+.footer-icons {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 0 730px;
+}
+
+.footer-icons img {
+    gap: 40px;
+    padding-bottom: 75px;
+}
+
+.footer-menu-button {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.Privacy-policy {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4,1fr);
+    /* gap: px; */
+    padding: 10px 600px;
+
+}
+
+.privacy-policy-title {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.copyright {
+    padding-bottom: 130px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
 
 /* Responsive Device */
 @media screen and (max-width:576px) {
@@ -383,6 +465,8 @@
         /* display: flex; */
         width: 133px;
         border-radius: 50px;
+        padding: 0;
+        margin: 0;
 
 
     }
@@ -399,6 +483,31 @@
         font-size: 0.9rem;
         margin-left: 0px;
     }
+    .footer-section{
+        /* width: max-content; */
+    }
+
+    .footer-menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding:0;
+    }
+    .footer-menu-button{
+        padding: 20px 0;
+    }
+    .footer-icons{
+        grid-template-columns: repeat(3,1fr);
+        padding: 50px 50px 20px 50px;
+        margin-left: 50px;
+    }
+    .Privacy-policy{
+        grid-template-columns: repeat(2,1fr);
+        padding: 0;
+    }
+    .privacy-policy-title{
+        padding: 5px 0 20px 0;
+    }
+
 
 }
 
