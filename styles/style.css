@@ -203,10 +203,16 @@
     text-align: center;
     color: #FF42A5;
     position:absolute;
-    bottom: -380px;
-    right: 700px;
+    bottom: 230px;
+    right: 100px;
+    visibility: hidden;
 }
-
+.card:hover .watch-img{
+visibility: visible;
+}
+.card{
+    position: relative;
+}
 
 .watch-title {
     font-size: 1.2rem;
