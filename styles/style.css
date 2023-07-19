@@ -197,6 +197,15 @@
     gap: 24px;
 }
 
+.watch-now:hover {
+    filter:blur(1px);
+    /* background-image: url('../icons/play-button\ 1.svg');
+    width: 100%; */
+    /* border-radius: 160px; */
+    /* background-blend-mode:darken;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+
 .card-details {
     color: #534C64;
     font-size: 1.3rem;
@@ -333,6 +342,10 @@
     grid-template-columns: repeat(6, 1fr);
     padding: 0 530px 70px 530px;
 }
+.footer-icons button{
+    display: flex;
+    justify-content: start;
+}
 
 .footer-icons {
     display: grid;
@@ -356,7 +369,7 @@
 .Privacy-policy {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     /* gap: px; */
     padding: 10px 600px;
 
@@ -483,28 +496,33 @@
         font-size: 0.9rem;
         margin-left: 0px;
     }
-    .footer-section{
+
+    .footer-section {
         /* width: max-content; */
     }
 
     .footer-menu {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        padding:0;
+        padding: 0;
     }
-    .footer-menu-button{
+
+    .footer-menu-button {
         padding: 20px 0;
     }
-    .footer-icons{
-        grid-template-columns: repeat(3,1fr);
+
+    .footer-icons {
+        grid-template-columns: repeat(3, 1fr);
         padding: 50px 50px 20px 50px;
         margin-left: 50px;
     }
-    .Privacy-policy{
-        grid-template-columns: repeat(2,1fr);
+
+    .Privacy-policy {
+        grid-template-columns: repeat(2, 1fr);
         padding: 0;
     }
-    .privacy-policy-title{
+
+    .privacy-policy-title {
         padding: 5px 0 20px 0;
     }
 
