@@ -195,7 +195,7 @@
 }
 
 .watch-now:hover {
-    filter: grayscale(60%);
+    filter: brightness(40%);
  
 
 }
@@ -471,7 +471,7 @@
 
     .watch-img {
         bottom: 230px;
-        right: 200px;
+        right: 150px;
 
     }
 
